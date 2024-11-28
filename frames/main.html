@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parisienne&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background: white;
+        width: 100vw;
+     }
+
+     .grid-container {
+        flex: 1 1 0;
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+        padding: 10px;
+        width: 100vw;
+        gap: 2%;
+        justify-content: center;
+        height: auto;
+        
+    }
+    img{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 20px; */
+    width: 25%;
+    margin-bottom: 2%;
+    height: auto;
+    animation: fadeout;
+    display: block;
+    animation: fadeout linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+    .circle {
+        height: 150vh;
+        width: 150vh;
+        position: fixed;
+        z-index: -1;
+        background: rgb(63,86,251);
+        background: linear-gradient(49deg, rgba(63,86,251,1) 0%, rgba(181,18,255,1) 100%);
+        border-radius: 100%;
+        translate: 0 -50%;
+        box-shadow: 0px 0px 100px 1px rgba(0, 0, 0, 0.5);
+        filter: blur(50px);
+        opacity: 1;
+        
+        }
+
+    @keyframes fadeout {
+        from {
+            opacity: 0;
+            scale: 0.5;
+        }
+
+        to {
+            opacity: 1;
+            scale: 1;
+        }
+    }
+
+    main {
+        width: auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-family: Inter;
+        font-size: 200px;
+        text-align: center;
+    }
+
+    ins {
+        text-decoration: none;
+        color: #222;
+        background: rgb(63,86,251);
+        background: linear-gradient(49deg, rgba(63,86,251,1) 0%, rgba(181,18,255,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    
+</style>
+<body>
+    <main>
+        <h1>What are you <ins>thinking?</ins></h1>
+        <div class="circle"></div>
+    </main>
+    <div class="grid-container">
+        
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        <img src="../imgs/Apostol-CasterPhoto-NoBG.png" alt="">
+        
+    </div>
+</body>
+</html>
